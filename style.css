@@ -9,6 +9,19 @@ body{
     align-items:center;
     background: lightslategrey;
     padding:15px;
+    animation-name: color ;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    from{
+        background-color: lightslategrey;
+    }
+    to{
+        background-color: rgb(200, 150,270);
+    }
 }
 
 .links a{
@@ -66,6 +79,11 @@ body{
     background:lightslategray;
     color:black;
     padding-top: 30px;
+    animation-name: color ;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
 .newsletter {
@@ -153,6 +171,20 @@ body{
 .pricing{
     text-align: center;
     padding: 40px;
+    background-color: yellowgreen;
+    animation-name:background  ;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes background {
+    form{
+        background-color: yellowgreen;
+    }
+    to{
+        background-color:yellow;
+    }
 }
 .price-container{
     display: flex;
@@ -181,7 +213,12 @@ body{
 .contact{
     text-align: center;
     padding: 20px;
-    
+    background-color:yellowgreen; ;
+    animation-name:background  ;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 .contact-container{
     display: inline-block;
